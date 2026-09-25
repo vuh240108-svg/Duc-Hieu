@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Thông Tin Cá Nhân - Vũ Đức Hiếu</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header>
+        <h1>TRANG THÔNG TIN CÁ NHÂN CỦA TÔI</h1>
+        <p><em>Chào mừng bạn đến với trang web cá nhân của Vũ Đức Hiếu!</em></p>
+        <img src="assets/images/ảnh cá nhân.jpg" alt="Ảnh đại diện Vũ Đức Hiếu" width="200">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#gioi-thieu">Giới thiệu</a></li>
+            <li><a href="#so-thich">Sở thích</a></li>
+            <li><a href="#hoc-tap">Học tập & TKB</a></li>
+            <li><a href="#du-an">Dự án</a></li>
+            <li><a href="#lien-he">Liên hệ</a></li>
+        </ul>
+    </nav>
+    <main>
+
+        <!-- PHẦN GIỚI THIỆU CÁ NHÂN -->
+        <section id="gioi-thieu">
+            <h2>1. Giới thiệu bản thân</h2>
+            <p><strong>Họ và tên:</strong> Vũ Đức Hiếu </p>
+            <p><strong>Ngày sinh:</strong> 24/01/2008</p>
+            <p><strong>Quê quán:</strong> Ninh Bình, Việt Nam</p>
+            <p><strong>Ngành học:</strong> Công nghệ thông tin</p>
+            <p><strong>Lớp:</strong> CNTT-K20-02</p>
+                <strong>Mô tả ngắn:</strong> Tôi là một sinh viên đam mê <em>lập trình web</em> và luôn mong muốn học hỏi thêm các công nghệ mới để xây dựng những sản phẩm hữu ích cho cộng đồng.
+            </p>
+        </section>
+
+        <hr>
+        <section id="so-thich">
+            <h2>2. Sở thích cá nhân</h2>
+            <ul>
+                <li>Chơi game và nghe nhạc</li>
+                <li>thích sáng tạo sáng chế</li>
+                <li>thích đi ngủ</li>
+                <li>Chơi đá bóng cùng bạn bè vào cuối tuần</li>
+            </ul>
+        </section>
+
+        <hr>
+        <section id="hoc-tap">
+            <h2>3. Thời khóa biểu học tập</h2>
+            <table border="1" cellpadding="8" cellspacing="0">
+                <caption><strong>BẢNG THỜI KHÓA BIỂU TRONG TUẦN</strong></caption>
+                <thead>
+                    <tr>
+                        <th>Ca học</th>
+                        <th>Thứ 4</th>
+                        <th>Thứ 5</th>
+                        <th>Thứ 6</th>
+                        <th>Thứ 7</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Sáng (07h00 - 11h30)</strong></td>
+                        <td>Nhập môn CNTT</td>
+                        <td>Kĩ Năng Mềm</td>
+                        <td>Hệ thống máy tính</td>
+                        <td>Lập trình wed</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Chiều (13h00 - 17h00)</strong></td>
+                        <td>ngủ</td>
+                        <td>đi chơi</td>
+                        <td>Thực hành máy tính</td>
+                        <td>Lập trình wed</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <hr>
+        <section id="du-an">
+            <h2>4. Các dự án / Sản phẩm từng làm</h2>
+            
+            <article>
+                <h3>Website Giới thiệu bản thân</h3>
+                <p>Website đơn giản được xây dựng hoàn toàn bằng chuẩn <strong>HTML</strong> giúp tối ưu cấu trúc trang web và trải nghiệm người dùng.</p>
+            </article>
+
+            <article>
+                <h3>Ứng dụng Quản lý Thời khóa biểu cá nhân</h3>
+                <p>Bài tập lớn môn Cấu trúc dữ liệu và Giải thuật, giúp sinh viên sắp xếp và quản lý lịch học trong tuần hiệu quả.</p>
+            </article>
+        </section>
+
+        <hr>
+        <aside>
+            <h3>Kết nối với tôi trên mạng xã hội</h3>
+            <p>
+                Ghé thăm trang Facebook của tôi tại: 
+                <a href="https://www.facebook.com/hieun.vu.58" target="_blank" rel="noopener noreferrer">Facebook cá nhân</a>
+            </p>
+        </aside>
+
+        <hr>
+        <section id="lien-he">
+            <h2>5. Gửi lời nhắn cho tôi</h2>
+            <form action="#" method="post">
+                <p>
+                    <label for="name">Vũ Đức Hiếu</label><br>
+                    <input type="text" id="name" name="name" placeholder="Nhập .họ và tên.." required>
+                </p>
+                <p>
+                    <label for="email">https://mail.google.com/mail/u/0/#inbox</label><br>
+                    <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
+                </p>
+
+                <p>
+                    <label for="message">Lời nhắn của bạn:</label><br>
+                    <textarea id="message" name="message" rows="5" cols="40" placeholder="Viết lời nhắn tại đây..." required></textarea>
+                </p>
+
+                <p>
+                    <button type="submit">Gửi lời nhắn</button>
+                    <button type="reset">Nhập lại</button>
+                </p>
+            </form>
+        </section>
+
+    </main>
+    <footer>
+        <p>&copy; 2026 Vũ Đức Hiếu. Tất cả các quyền được bảo lưu.</p>
+    </footer>
+
+</body>
+</html>
